@@ -1,3 +1,4 @@
+
 ### First_Factorial 
 
 Tags: recursion, math fundamentals | Difficulty: Easy
@@ -25,6 +26,29 @@ class Main {
         return 1;    
     else    
         return(num * FirstFactorial(num-1));
+  }
+  
+  public static void main (String[] args) {  
+    // keep this function call here     
+    Scanner s = new Scanner(System.in);
+    System.out.print(FirstFactorial(s.nextLine())); 
+  }   
+  
+}
+```
+<center>OR</center>
+
+```
+import java.util.*; 
+import java.io.*;
+
+class Main {  
+  public static int FirstFactorial(int num) { 
+    int fact=1;
+	for(int i=num;i>0;i--){
+		fact=fact*i;
+	}
+	return fact;
   }
   
   public static void main (String[] args) {  
