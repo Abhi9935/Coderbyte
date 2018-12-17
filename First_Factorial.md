@@ -1,4 +1,3 @@
-/*
 ### First_Factorial 
 
 Tags: recursion, math fundamentals | Difficulty: Easy
@@ -15,7 +14,7 @@ Input:8
 Output:40320
 
 View Hint
-*/
+
 ```
 import java.util.*; 
 import java.io.*;
